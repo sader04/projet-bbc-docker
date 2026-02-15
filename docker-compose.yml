@@ -1,0 +1,27 @@
+services:
+  # Service d'entraînement
+  train:
+    build:
+      context: .
+      dockerfile: Dockerfile.train
+    container_name: bbc-trainer
+    volumes:
+      - ./data:/app/data
+      - ./best_multiscale.keras:/app/best_multiscale.keras
+    command: python train.py
+    profiles:
+      - train
+
+  # Service de déploiement
+  deploy:
+    build:
+      context: .
+      dockerfile: Dockerfile.deploy
+    container_name: bbc-deploy
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+      - ./best_multiscale.keras:/app/best_multiscale.keras
+    profiles:
+      - deploy

@@ -1,0 +1,23 @@
+#Dockerfile pour le déploiement de l'application Flask
+FROM python:3.9-slim
+
+# Définir le répertoire de travail
+WORKDIR /app
+
+# Copier les fichiers requirements
+COPY requirements.txt .
+
+# Installer les dépendances
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copier les fichiers source
+COPY app.py .
+COPY train.py .
+COPY best_multiscale.keras ./
+COPY data/ ./data/
+
+# Exposer le port Flask
+EXPOSE 5000
+
+# Commande pour lancer l'application Flask
+CMD ["python", "app.py"]

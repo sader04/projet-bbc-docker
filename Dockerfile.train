@@ -1,0 +1,21 @@
+#Dockerfile pour l'entraînement du modèle
+FROM python:3.9-slim
+
+# Définir le répertoire de travail
+WORKDIR /app
+
+# Copier les fichiers requirements
+COPY requirements.txt .
+
+# Installer les dépendances
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copier les fichiers source
+COPY train.py .
+COPY data/ ./data/
+
+# Créer un dossier pour les modèles (optionnel)
+# RUN mkdir -p models
+
+# Commande pour entraîner le modèle
+CMD ["python", "train.py"]
