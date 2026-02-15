@@ -225,16 +225,14 @@ docker-compose down -v
 ### 🎯 Développement Principal
 <img src="https://github.com/[username1].png" alt="Profile" width="80" height="80" style="border-radius: 50%;">
 
-- **[Nom Contributeur 1]** 
-  - 🔗 [GitHub](https://github.com/[username1])
-  - 🎓 Rôle: Machine Learning Engineer
+- **DERBANI Salwa** 
+  - 🔗 [GitHub](https://github.com/)
 
 ### 🤝 Collaboration  
 <img src="https://github.com/[username2].png" alt="Profile" width="80" height="80" style="border-radius: 50%;">
 
-- **[Nom Contributeur 2]**
-  - 🔗 [GitHub](https://github.com/[username2])
-  - 🎓 Rôle: Data Scientist
+- **KOUDIA Selma**
+  - 🔗 [GitHub](https://github.com/)
 
 ---
 
