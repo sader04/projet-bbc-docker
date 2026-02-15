@@ -221,21 +221,15 @@ docker-compose down -v
 
 
 ## 👥 Contributeurs
-
-### 🎯 Développement Principal
-<img src="https://github.com/[username1].png" alt="Profile" width="80" height="80" style="border-radius: 50%;">
+<img src="https://github.com/sader04.png" alt="Profile" width="80" height="80" style="border-radius: 50%;">
 
 - **DERBANI Salwa** 
-  - 🔗 [GitHub](https://github.com/)
+  - 🔗 [GitHub](https://github.com/sader04)
 
-### 🤝 Collaboration  
-<img src="https://github.com/[username2].png" alt="Profile" width="80" height="80" style="border-radius: 50%;">
+<img src="https://github.com/selmakoudia03.png" alt="Profile" width="80" height="80" style="border-radius: 50%;">
 
 - **KOUDIA Selma**
-  - 🔗 [GitHub](https://github.com/)
+  - 🔗 [GitHub](https://github.com/selmakoudia03)
 
 ---
 
-
-
-**🚀 Ready to classify some BBC news?**
